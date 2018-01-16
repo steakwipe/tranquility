@@ -1,6 +1,9 @@
 # tranquility
 Enlightenment meets Arch!
-
+---
+Latest build available via Mega: https://mega.nz/#!GFUHyDzK!15hR77aoDc3oQn5bspPZ4NmFQKf2sW5NyvmsMVvcx_c
+Built Jan. 16, 02:31 PST
+---
 Tranquility is an Archlinux-based live ISO with a recent build of Enlightenment sitting neatly on top. Currently, this image is analogous to the Archlinux install media, except it boots directly to an Enlightenment desktop. 
 
 Currently, it only includes Xorg support, but it's probable we'll get Wayland going on it sooner or later- E is great on Wayland so it's hard to resist.
