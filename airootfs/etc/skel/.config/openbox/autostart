@@ -1,0 +1,17 @@
+# steaklive openbox autostart
+# part of the steaklive archlinux super iso https://github.com/steakwipe/steaklive
+# i like corn
+
+# Since we use Nitrogen for wallpaper selection, we ask it to load the last one saved.
+#nitrogen --set-zoom-fill ~/isowp.png &
+# Since this is live media we'll tell nitrogen to load the wallpaper in ~/ instead of restoring last used.
+
+# Load compton, our config is in ~/.config/compton.conf
+# Disabled for compatibility
+# compton -b --config ~/.config/compton.conf &
+
+# Tint2 is our current panel of choice
+tint2 &
+
+# Conky cause it's popular. 
+conky &

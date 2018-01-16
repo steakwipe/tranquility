@@ -1,0 +1,51 @@
+# ADDING CRAP MANUALY CUZ IM sad
+
+export TERM="xterm-256color"
+zstyle ':completion:*' rehash true
+#source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# ah fuck i almost forgot my aliases
+alias srch='pacman -Ss'
+alias get='pacman -S --noconfirm --needed'
+alias upd8='pacman -Syu --noconfirm --needed'
+alias unget='pacman -Rc'
+alias src='source ~/.zshrc'
+# example of a basic local zshrc
+
+# export GTK_BACKEND=wayland
+
+autoload autosource # for plugins
+autosource sudo # enable sudo plugin
+autosource colored-man-pages
+autosource command-not-found
+autosource fast-syntax-highlighting
+
+autoload sprunge # something with output | sprunge, and sprunge < somefile
+
+
+# tryin to make cowsay fortune on terminal openz
+#
+cowsay -f tux `fortune -ae`
+
+# get a non-default prompt
+autoload -Uz promptinit
+promptinit
+
+#im pretty sure this part makes zsh start slow
+
+function powerline_precmd() {
+    PS1="$(~/go/bin/powerline-go -error $? -shell zsh)"
+}
+
+function install_powerline_precmd() {
+  for s in "${precmd_functions[@]}"; do
+    if [ "$s" = "powerline_precmd" ]; then
+      return
+    fi
+  done
+  precmd_functions+=(powerline_precmd)
+}
+
+if [ "$TERM" != "linux" ]; then
+    install_powerline_precmd
+fi

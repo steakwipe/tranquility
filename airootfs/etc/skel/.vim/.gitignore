@@ -1,0 +1,7 @@
+# whitelist approach - we want users to be able to add whatever they want in there
+*
+!.gitignore
+!init.vim
+!vimrc
+!pack
+!pack/vim-toastpack
