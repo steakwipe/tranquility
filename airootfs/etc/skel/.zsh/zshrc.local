@@ -23,10 +23,6 @@ autosource fast-syntax-highlighting
 autoload sprunge # something with output | sprunge, and sprunge < somefile
 
 
-# tryin to make cowsay fortune on terminal openz
-#
-cowsay -f tux `fortune -ae`
-
 # get a non-default prompt
 autoload -Uz promptinit
 promptinit
