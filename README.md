@@ -12,7 +12,7 @@ The software selection available is a basic setup of E, Terminology for your ter
 
 Terminology will ride on top of a fantastic ZSH setup by my dear friend [SpaceToast](http://github.com/5paceToast/) and her magic coding powers. [toasty-zsh](http://github.com/5paceToast/toasty-zsh) is fantastic, and you should check it out too. I don't spin up a new system without it.
 
-Because I'm a sucker for a super-fly prompt, Tranquility trades the prompts typically included with toasty-zsh or others, in favor of [Powerline-go](https://github.com/justjanne/powerline-go). Especially with all this git-fu we're doing with this repo, it's been poretty nice, so naturally it came along for the party!
+Because I'm a sucker for a super-fly prompt, Tranquility trades the prompts typically included with toasty-zsh or others, in favor of [Powerline-go](https://github.com/justjanne/powerline-go). Especially with all this git-fu we're doing with this repo, it's been pretty nice, so naturally it came along for the party!
 
 Myself, I am not a particularly experienced or talented programmer, but I do like pretty, useful things, and I do like putting them together. With the help of some friends, we're trying to put together a fantastic Enlightenment experience, as a springboard onto a solid Arch install. Plenty more to come- I have a habit of spamming commits. :P
 
