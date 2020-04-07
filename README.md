@@ -1,20 +1,18 @@
 # tranquility
-Enlightenment meets Arch!
+Enlightenment ...met Arch.
 ---
-Latest build available via Mega: https://mega.nz/#!GFUHyDzK!15hR77aoDc3oQn5bspPZ4NmFQKf2sW5NyvmsMVvcx_c
-Built Jan. 16, 02:31 PST
+keepin isos of this offsite was fucky, weird, and fishy lookin tbh. since i cant fit thie iso on gh right now, you'll have to build it i'm afraid. probably won't be around much longer though, considering a simpler rebuild. this was a bit excessive.
 ---
-Tranquility is an Archlinux-based live ISO with a recent build of Enlightenment sitting neatly on top. Currently, this image is analogous to the Archlinux install media, except it boots directly to an Enlightenment desktop. 
+*CURRENTLY*
+Tranquility is an Archlinux-based live ISO with a pretty dam old build of Enlightenment sitting neatly on top. Currently, this image is analogous to the Archlinux install media, except it boots directly to an Enlightenment desktop. 
 
-Currently, it only includes Xorg support, but it's probable we'll get Wayland going on it sooner or later- E is great on Wayland so it's hard to resist.
+Basically just has some simple wares on top of E for a low overhead desktop to install your Arch or whatever with. TURNED OUT A LITTLE BLOATY FOR REALISTIC USES THO
 
-The software selection available is a basic setup of E, Terminology for your term, Firefox Developer Edition so you can look at the Arch install docs on the same machine for once, and others. The selection will very likely fluctuate over time as we refine the desktop experience and continue adding functionality.
+Terminology is pretty nice though. it currently will ride on top of a fantastic ZSH setup by my dear friend [SpaceToast](http://github.com/5paceToast/) and her magic coding powers. [toasty-zsh](http://github.com/5paceToast/toasty-zsh) is fantastic, and you should check it out too. I don't spin up a new system without it. it's definitely the only thing that's going to survive this remake.
 
-Terminology will ride on top of a fantastic ZSH setup by my dear friend [SpaceToast](http://github.com/5paceToast/) and her magic coding powers. [toasty-zsh](http://github.com/5paceToast/toasty-zsh) is fantastic, and you should check it out too. I don't spin up a new system without it.
+oh yeah i powerlined the prompt too but that was also a bit much for a freakin installbase disc wtf steak
 
-Because I'm a sucker for a super-fly prompt, Tranquility trades the prompts typically included with toasty-zsh or others, in favor of [Powerline-go](https://github.com/justjanne/powerline-go). Especially with all this git-fu we're doing with this repo, it's been pretty nice, so naturally it came along for the party!
-
-Myself, I am not a particularly experienced or talented programmer, but I do like pretty, useful things, and I do like putting them together. With the help of some friends, we're trying to put together a fantastic Enlightenment experience, as a springboard onto a solid Arch install. Plenty more to come- I have a habit of spamming commits. :P
+this last little paragraph basically said i'm an idiot but i like UX. this is still true
 
 ## Building it!
 Currently this is built using [archiso](https://wiki.archlinux.org/index.php/archiso). This means that i've youve got Arch, possibly even similar forks of Arch, you can build this iso yourself quickly and easily. It may be helpful to refer to the article linked above, too.
@@ -28,7 +26,7 @@ The process uses Arch's pacstrap tool (which you may recognize from doing your o
 
 It'll boot on EFI and Legacy BIOS systems, as well. We'll try to keep a recent build of the iso itself accessible, but for best results grabbing a build will always be a good bet, if you have Arch-flavor tools handy. 
 
-If you want to say hi you can often find us hanging out in #e on irc.freenode.net!
+I DONT GO ON IRC ANYMORE WHO CARES
 
 
 
