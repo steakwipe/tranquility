@@ -1,23 +1,22 @@
-WE MIGHT START THIS ISH OVER YALL
-thinkin the ui should probly justbe a simpler WM yea? taking suggestions and votes cause I currently can't even remotely decide. anyway heres the garbled readme in the meantime. 
----
-TIRED OF FAKE NEWS? TIME FOR STEAK NEWS. 
----
-ok it was pretty cool to make this a couple years back, but it got a bit out of control and overbloated for a damn build disc. the files will remain up for now (as i am actually using them a couple more times to reuild a couple systems of my own before the party)
+ok screw all that exposition
 
-keepin isos of this offsite was fucky, weird, and fishy lookin tbh. since i cant fit thie iso on gh right now, you'll have to build it i'm afraid. probably won't be around much longer though, considering a simpler rebuild. this was a bit excessive.
----
-*CURRENTLY*
-Tranquility is an Archlinux-based live ISO with a pretty dam old build of Enlightenment sitting neatly on top. Currently, this image is analogous to the Archlinux install media, except it boots directly to an Enlightenment desktop. 
+QUICK DESCRIP BRO
+ARCHLINUX DISC
 
-Basically just has some simple wares on top of E for a low overhead desktop to install your Arch or whatever with. TURNED OUT A LITTLE BLOATY FOR REALISTIC USES THO
+COMES WITH ...KINDA OLD ENLIGHTENMENT BUT ITS NEAT I SUPPOSE
+PROBABLY FIREFOX AND A TERMINAL
+JUST CRAP YOU NEED TO BE A BIT MORE COMFY INSTALLIN ARCHIE BOI
 
-Terminology is pretty nice though. it currently will ride on top of a fantastic ZSH setup by my dear friend [SpaceToast](http://github.com/5paceToast/) and her magic coding powers. [toasty-zsh](http://github.com/5paceToast/toasty-zsh) is fantastic, and you should check it out too. I don't spin up a new system without it. it's definitely the only thing that's going to survive this remake.
+but heres the thing it had way too much crap in it for its intended purpose
+it was fun to make and neat to use as an alternative to regular arch isos
 
-oh yeah i powerlined the prompt too but that was also a bit much for a freakin installbase disc wtf steak
+but without one built its not even worh building one (to me) so i'm just gonna leave all this here incase anybody wants to try it or find out wtf it was,before it gets wiped out later.
 
-this last little paragraph basically said i'm an idiot but i like UX. this is still true
+i think i'd like to revisit this idea with a much simpler setup later maybe. BIG maybe. i mightnot give any craps about this in a few days yanno
 
+but these directions should get you all set if youve got the archiso stuff installed and if youc ant figure it out
+
+well i put about 5 mins into sorting it out before deciding naaaw. so good luck and um. enjoy the downtime, efl is kinda big 
 ## Building it!
 Currently this is built using [archiso](https://wiki.archlinux.org/index.php/archiso). This means that i've youve got Arch, possibly even similar forks of Arch, you can build this iso yourself quickly and easily. It may be helpful to refer to the article linked above, too.
 
