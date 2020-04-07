@@ -1,6 +1,10 @@
-# tranquility
-Enlightenment ...met Arch.
+WE MIGHT START THIS ISH OVER YALL
+thinkin the ui should probly justbe a simpler WM yea? taking suggestions and votes cause I currently can't even remotely decide. anyway heres the garbled readme in the meantime. 
 ---
+TIRED OF FAKE NEWS? TIME FOR STEAK NEWS. 
+---
+ok it was pretty cool to make this a couple years back, but it got a bit out of control and overbloated for a damn build disc. the files will remain up for now (as i am actually using them a couple more times to reuild a couple systems of my own before the party)
+
 keepin isos of this offsite was fucky, weird, and fishy lookin tbh. since i cant fit thie iso on gh right now, you'll have to build it i'm afraid. probably won't be around much longer though, considering a simpler rebuild. this was a bit excessive.
 ---
 *CURRENTLY*
